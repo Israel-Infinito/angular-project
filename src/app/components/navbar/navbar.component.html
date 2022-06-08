@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-sm navbar-light fixed-top hidden-sm hidden-xs">
+    <a class="navbar-brand" href="#">
+      <h3 style="color: #fff;">F E R A</h3>
+    </a>
+    <button class="navbar-toggler d-lg-none " type="button" data-toggle="collapse" (click)="isShown=!isShown">
+      <span class="navbar-toggler-icon" style="color: rgb(0, 0, 0);"><i class="fa fa-bars fa-2x"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngClass]="{ 'show': isShown }">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <input class="form-control" type="text" placeholder="Search item name or category">
+          <!-- <img src="/assets/search.png"> -->
+        </li>
+        <li class="nav-item">
+          <div class="vl"></div>
+        </li>
+        <li class="nav-item"> 
+          <button routerLink="/login" class="btn btn-login px-3"><i class="material-icons">person</i>LOGIN</button>
+        </li>
+        <li >
+          <button routerLink="/register"  class="btn btn-danger mx-4 my-sm-0 px-4 " style="background-color: 
+          rgba(242, 71, 47, 1); padding: 8px 8px;" type="submit">REGISTER</button>
+        </li>
+      </ul>
+      
+        
+        
+    </div>
+  </nav>
+
