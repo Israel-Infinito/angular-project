@@ -1,0 +1,33 @@
+h1 {
+    color: #4976BA;
+    font-weight: 600;
+    font-size: 32px;
+
+}
+
+.tag {
+    font-size: 14px;
+    color: #A4A4A4;
+    font-size: 14px;
+}
+
+.btn {
+    padding: 10px 150px;
+    color: #fff;
+    outline-style: none;
+    box-shadow: none;
+}
+
+.btn-decline {
+    background-color: #F07766;
+}
+
+.btn-approve {
+    background-color: #00008F;
+}
+
+.btn-previous{
+    color: #F07766;
+    border: 1px solid #F07766;
+    padding: 10px 50px;
+}

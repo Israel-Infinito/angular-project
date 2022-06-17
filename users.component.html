@@ -1,0 +1,77 @@
+<h1>Users List</h1>
+<div class="card">
+    <div class="card-body">
+        <div class="d-flex flex-row">
+            <h6 class="mt-1" style="font-size: 14px;">Filter By:</h6>
+            <div class="dropdown">
+                <button class="btn py-0  dropdown-toggle" type="button" id="category" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    User Category
+                </button>
+                <div class="dropdown-menu" aria-labelledby="category">
+                    <button class="dropdown-item" type="button">Action</button>
+                    <button class="dropdown-item" type="button">Another action</button>
+                    <button class="dropdown-item" type="button">Something else here</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 d-flex py-0" >
+                <h6 class="bidders-count">12 new prospective bidders registered</h6>
+            </div>
+            <div class="col-md-6 d-flex flex-row-reverse ">
+                <form>
+                    <input class="form-control search" type="search" placeholder="Search user name or category">
+                    <button class="" type="submit"></button>
+                </form>
+
+            </div>
+        </div>
+        <div>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">User Category</th>
+                    <th scope="col">Team</th>
+                    <th scope="col">Phone Number</th>
+                    <th scope="col">Email Address</th>
+                    <th scope="col">Registered Date </th>
+                    <th scope="col">Status</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Gabriela Ohmas</td>
+                    <td>Axa Staff</td>
+                    <td class="team">Claims</td>
+                    <td>08011223344</td>
+                    <td>gabriela.ohmos@axamansard.com</td>
+                    <td class="team">21-03-2021<small> 1:16pm</small></td>
+                    <td class="status">Pending</td>
+                    <td class="detail">View Details</td>
+                  </tr>
+                  <tr>
+                    <td>Ajibola Thompson</td>
+                    <td>Vendor</td>
+                    <td class="team">Not Applicable</td>
+                    <td>08011223344</td>
+                    <td>gabriela.ohmos@axamansard.com</td>
+                    <td class="team">21-03-2021</td>
+                    <td class="status">Pending</td>
+                    <td class="detail" routerLink="/user-details">View Details</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="row">
+            <div class="col-md-6 d-flex flex-row">
+                <h6>Showing 1 to 8 of 52 entries </h6>
+            </div>
+            <div class="col-md-6 d-flex flex-row-reverse ">
+
+            </div>
+        </div>
+    </div>

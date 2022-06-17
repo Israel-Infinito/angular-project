@@ -1,0 +1,103 @@
+h1 {
+    color: #4976BA;
+    font-weight: 600;
+    font-size: 32px;
+
+}
+
+.btn {
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.3);
+    outline-style: none;
+    box-shadow: none;
+}
+
+
+form {
+    color: #555;
+    display: flex;
+    padding: 2px;
+    width: 70%;
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+}
+
+input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+}
+
+input::placeholder {
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.3);
+}
+
+button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("/assets/search.png") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+button[type="submit"]:hover {
+    opacity: 1;
+}
+
+button[type="submit"]:focus,
+input[type="search"]:focus {
+    outline-style: none;
+    box-shadow: none;
+}
+
+.bidders-count{
+    color: #F07666;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    padding-top:20px
+}
+
+.table{
+    margin-top: 5px;
+   font-size: 14px;
+}
+
+.table thead{
+    background-color:  #F6F9FF;
+    color: #4976BA;
+    
+}
+
+.table th {
+    border: none;
+}
+
+.team{
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.status{
+    background: rgba(255, 140, 6, 0.15);
+    border-radius: 70px;
+    color: #FF8C06;
+    font-weight: 600;
+}
+
+.detail{
+    text-decoration: underline;
+    color: #00008F;
+    font-weight: 600;
+}

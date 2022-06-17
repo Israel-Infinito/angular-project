@@ -1,0 +1,156 @@
+.sidenav {
+    background: #FFFFFF;
+    transition: all .5s ease;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 5%;
+    min-width: 70px;
+    height: 100vh;
+    box-shadow: 0.063rem 0 1.25rem 0 #8690a3;
+    font-weight: 600;
+    padding-top: 70px;
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+        padding: 0.938rem 0.938rem 0 0.938rem;
+        width: 100%;
+
+        .logo {
+            background: #fff;
+            text-align: center;
+            width: 3rem;
+            min-width: 3rem;
+            border-radius: 0.313rem;
+            padding: 0.313rem;
+            font-size: 24px;
+            font-weight: 900;
+            cursor: pointer;
+            border: none;
+            color: #757575;
+        }
+
+        .logo-text {
+            margin-left: 1.5rem;
+            font-size: 24px;
+            font-weight: 700;
+            color: #757575;
+
+        }
+
+        .btn-close {
+            margin-left: auto;
+            cursor: pointer;
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            background-color: transparent;
+            border: none;
+
+            .fa-times {
+                color: #757575;
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+.sidenav-collapsed {
+    width: 15%;
+    min-width: 3rem;
+}
+
+.sidenav-nav {
+    list-style: none;
+    padding: 0.938rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: calc(100% - 3.65rem);
+    cursor: pointer;
+
+
+
+    .sidenav-nav-item {
+        width: 100%;
+        margin-bottom: 0.625rem;
+        
+
+
+        .sidenav-nav-link {
+            display: flex;
+            align-items: center;
+            height: 3rem;
+            text-decoration: none;
+            border-radius: none;
+            transition: all .3s ease;
+
+            .sidenav-link-icon {
+                font-size: 22px;
+                width: 2rem;
+                min-width: 2rem;
+                margin: 0 0.5rem;
+                text-align: center;
+                color: #757575;
+            }
+
+            .sidenav-link-text {
+                margin-left: 1.5rem;
+                color: #757575;
+            }
+
+            .dropdown {
+                margin-left: 3.2rem;
+                margin-bottom: 8px;
+                font-size: 20px;
+                color: #757575;
+            }
+        }
+
+    }
+
+    .sidenav-nav-item:hover {
+        .sidenav-nav-link {
+            background-color: #fff;
+            border-right: 4.2px solid #F06754;
+            box-shadow: 0 4px 9px -2px #4976BA;
+        }
+
+
+        .sidenav-link-text {
+            color: #4976BA;
+        }
+
+    }
+}
+
+.active {
+    background-color: #fff;
+    border-right: 4.2px solid #F06754;
+    color: #4976BA;
+    box-shadow: 0 4px 9px -2px #4976BA;
+
+    .sidenav-nav-link {
+        color: #4976BA;
+    }
+}
+
+.sidenav-submenu {
+    list-style: none;
+    padding: 10px 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+    background-color: rgba(73, 118, 186, 0.15);
+
+    .sidenav-submenu-item {
+        color: #757575;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
